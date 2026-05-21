@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Undangan Digital</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Great+Vibes&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<audio id="bgMusic" loop preload="auto">
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" id="musicBtn" title="Musik">
+  <span></span><span></span><span></span>
+</button>
+
+<section class="opening" id="opening">
+  <div class="opening-card">
+    <p class="mini">Portfolio Undangan Digital</p>
+    <h1>Selamat Datang</h1>
+    <p class="sub">Website promosi jasa pembuatan undangan digital</p>
+
+    <div class="line"><i></i></div>
+
+    <p class="hello">Halo,</p>
+    <h3 id="guestName">Calon Client</h3>
+
+    <button id="openBtn" class="main-btn">Lihat Portofolio</button>
+    <p class="hint">Klik tombol untuk membuka dan memutar musik</p>
+  </div>
+</section>
+
+<nav id="navbar">
+  <div class="logo">Kreasi Undangan</div>
+  <div class="nav-links">
+    <a href="#about">Tentang</a>
+    <a href="#portfolio">Portofolio</a>
+    <a href="#paket">Paket</a>
+    <a href="#proses">Proses</a>
+    <a href="#kontak" class="nav-btn">Pesan</a>
+  </div>
+</nav>
+
+<main id="mainContent">
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="overlay"></div>
+    <div class="hero-content reveal">
+      <p>Digital Invitation Specialist</p>
+      <h1>Kreasi Undangan</h1>
+      <h2>Undangan digital elegan, modern, dan siap menarik perhatian tamu Anda.</h2>
+      <a href="#kontak" class="hero-btn">Konsultasi Sekarang</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="photo-box reveal-left">
+        <img src="img/foto_saya.jpg" alt="Foto Saya">
+        <div class="badge">
+          <strong>50+</strong>
+          <span>Project</span>
+        </div>
+      </div>
+
+      <div class="about-text reveal-right">
+        <p class="section-label">Tentang Saya</p>
+        <h2>Saya membantu calon pengantin memiliki undangan digital yang terlihat premium.</h2>
+        <p>
+          Saya menyediakan jasa pembuatan undangan digital dengan desain elegan, responsif,
+          musik latar, galeri foto, countdown, lokasi acara, dan tombol WhatsApp.
+        </p>
+        <p>
+          Cocok untuk client yang ingin undangan cepat dibagikan, mudah diakses, dan tetap terlihat profesional.
+        </p>
+
+        <div class="stats">
+          <div><strong>50+</strong><span>Client</span></div>
+          <div><strong>3+</strong><span>Tahun</span></div>
+          <div><strong>5★</strong><span>Rating</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-label">Portofolio</p>
+        <h2>Contoh Tampilan Undangan</h2>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="port-item big reveal-left">
+          <img src="img/showcase1.jpg" alt="">
+          <div><span>Premium</span><h3>Elegant Wedding</h3></div>
+        </div>
+        <div class="port-item reveal">
+          <img src="img/showcase2.jpg" alt="">
+          <div><span>Classic</span><h3>Soft Brown Theme</h3></div>
+        </div>
+        <div class="port-item reveal">
+          <img src="img/showcase3.jpg" alt="">
+          <div><span>Modern</span><h3>Clean Invitation</h3></div>
+        </div>
+        <div class="port-item reveal">
+          <img src="img/showcase4.jpg" alt="">
+          <div><span>Luxury</span><h3>Gold Theme</h3></div>
+        </div>
+        <div class="port-item reveal-right">
+          <img src="img/showcase5.jpg" alt="">
+          <div><span>Custom</span><h3>Request Client</h3></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="paket" id="paket">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-label">Layanan</p>
+        <h2>Paket Undangan Digital</h2>
+      </div>
+
+      <div class="paket-grid">
+        <div class="paket-card reveal">
+          <span>01</span>
+          <h3>Starter</h3>
+          <p>Untuk undangan simple, elegan, dan cepat jadi.</p>
+          <ul>
+            <li>Halaman pembuka</li>
+            <li>Foto pasangan</li>
+            <li>Info acara</li>
+            <li>Google Maps</li>
+          </ul>
+          <h4>Rp50.000</h4>
+        </div>
+
+        <div class="paket-card popular reveal">
+          <span>02</span>
+          <h3>Premium</h3>
+          <p>Paket paling cocok untuk undangan yang terlihat profesional.</p>
+          <ul>
+            <li>Semua fitur Starter</li>
+            <li>Musik latar</li>
+            <li>Galeri foto</li>
+            <li>Countdown</li>
+            <li>RSVP WhatsApp</li>
+          </ul>
+          <h4>Rp75.000</h4>
+        </div>
+
+        <div class="paket-card reveal">
+          <span>03</span>
+          <h3>Custom</h3>
+          <p>Desain sesuai permintaan dan kebutuhan client.</p>
+          <ul>
+            <li>Desain custom</li>
+            <li>Animasi premium</li>
+            <li>Revisi prioritas</li>
+            <li>Fitur request</li>
+          </ul>
+          <h4>Rp100.000+</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="proses" id="proses">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-label">Alur Kerja</p>
+        <h2>Proses Pemesanan</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step reveal"><b>1</b><h3>Konsultasi</h3><p>Client memilih tema dan fitur.</p></div>
+        <div class="step reveal"><b>2</b><h3>Kirim Data</h3><p>Client mengirim foto, teks, dan detail acara.</p></div>
+        <div class="step reveal"><b>3</b><h3>Pengerjaan</h3><p>Undangan dibuat dan disesuaikan.</p></div>
+        <div class="step reveal"><b>4</b><h3>Publikasi</h3><p>Undangan siap dibagikan ke tamu.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimoni">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-label">Testimoni</p>
+        <h2>Apa Kata Client?</h2>
+      </div>
+
+      <div class="testi-grid">
+        <div class="testi reveal">
+          <p>“Desainnya elegan dan cepat selesai. Tamu juga mudah membuka undangannya.”</p>
+          <h4>Rani & Dika</h4>
+        </div>
+        <div class="testi reveal">
+          <p>“Hasilnya rapi, musiknya jalan, dan tampilannya mewah di HP.”</p>
+          <h4>Ayu & Fajar</h4>
+        </div>
+        <div class="testi reveal">
+          <p>“Sangat membantu, tinggal share link ke WhatsApp.”</p>
+          <h4>Nanda & Rizky</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="kontak" id="kontak">
+    <div class="container reveal">
+      <p class="section-label">Hubungi Saya</p>
+      <h2>Siap punya undangan digital yang menarik?</h2>
+      <p>Konsultasikan kebutuhan undangan Anda sekarang.</p>
+
+      <div class="cta-wrap">
+        <a href="https://wa.me/6281359675672?text=Halo,%20saya%20tertarik%20membuat%20undangan%20digital" target="_blank" class="cta">
+          Pesan via WhatsApp
+        </a>
+        <button onclick="copyText('Halo, saya tertarik membuat undangan digital')">Copy Pesan</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h2>Kreasi Undangan</h2>
+    <p>Undangan digital elegan untuk momen spesial Anda.</p>
+    <small>© 2026 Kreasi Undangan. All Rights Reserved.</small>
+  </footer>
+
+</main>
+
+<div class="toast" id="toast">Pesan berhasil disalin</div>
+
+<script src="script.js"></script>
+</body>
+</html>
